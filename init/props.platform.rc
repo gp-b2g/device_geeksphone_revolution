@@ -1,0 +1,5 @@
+# clovertrail specific SPID based properties
+
+# Intel:Intel:*:Clovertrail:*:*
+on property:ro.boot.spid=0000:0000:*:0002:*:*
+	setprop ro.spid.gps.tty ttyMFD3
